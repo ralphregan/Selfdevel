@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+body{
+    font-family: "Squada One", sans-serif;
+    margin: 0;
+    background-color: #d95f59;
+
+}
+
+.head-sec{
+    /* background-color: #522258; */
+    padding-top:100px ;
+    text-align: center;
+    
+    /* box-shadow: 2px 4px 8px rgb(0, 0, 0); */
+    height: 800px;
+   
+}
+.head-text{
+    display: flex;
+    flex-direction: column;
+    color: #d95f59;
+    
+    
+}
+.head-text >h2{
+    font-size: 80px;
+    text-shadow: 1px 2px 4px rgb(11, 10, 10);
+    color: #c63c51;
+}
+.head-text >h1{
+    font-size: 50px;
+    text-shadow: 1px 2px 4px rgb(11, 10, 10);
+    color: #c63c51;
+    
+}
+.head-text >h3{
+    text-shadow: 2px 4px 8px rgb(11, 10, 10);
+    font-size: 20px;
+}
+.intro-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    height: 600px;
+    background-color: #c63c51;
+    color: aliceblue;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.674);
+
+}
+.intro-img{
+    box-shadow: 1px 2px 4px ;
+    border-radius: 20px;
+}
+
+
+.profile-pic>img{
+    border: 2px solid;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.564);
+    border-radius: 40%;
+}
+.greetings{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.intro{
+    font-size:20px ;
+    
+}
+hr{
+    border: dotted aliceblue 6px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.352);
+    
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+    
+
+
+}
+.project-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    color: aliceblue;
+
+
+}
+.project-img{
+    box-shadow: 1px 2px 4px  rgba(2, 2, 2, 0.84);
+    border-radius: 20px;
+    transition: transform .2s;
+}
+.project-img:hover{
+    transform: scale(1.1);
+}
+.project{
+    display: flex;
+    gap: 100px;
+}
+.proj{
+    font-size: 60px;
+}
+.pr{
+    display: flex;
+    gap: 40px;
+}
+.foot-sec{
+    background-color: #c63c51;
+    box-shadow: 2px 4px 8px rgb(0, 0, 0);
+    height: 150px;
+    color:  aliceblue;
+    font-size: 20px;
+    padding: 50px ;
+    gap: 30px;
+
+}
+.foot-tex{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    
+
+}
+.contact-sec{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+.foot-text{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 15px;
+    color:  #522258;
+    
+
+}
+.foot-tex>a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.mail{
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 2px 4px rgb(0, 0, 0);
+    cursor: pointer;
+    
+    
+}
+.mail:hover{
+    background-color: rgba(240, 248, 255, 0.153);
+    box-shadow: 2px 4px 8px rgb(0, 0, 0);
+    cursor: pointer;
+    transform: scale(1.5);
+    
+}
+#mail-1{
+    font-size: 20px;
+    text-align: end;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+.huge{
+    color: black;
+    font-size: 2rem;
+    
+}
+
+
+
