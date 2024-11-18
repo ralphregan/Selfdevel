@@ -1,3 +1,6 @@
 [submodule "AllForFoodsSake"]
 	path = AllForFoodsSake
 	url = https://github.com/ralphregan/AllForFoodsSake.git
+[submodule "WeatherApp"]
+	path = WeatherApp
+	url = https://github.com/ralphregan/WEATHER_AND_BOOKS.git
